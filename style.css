@@ -1,0 +1,164 @@
+*
+{padding: 0;margin: 0;box-sizing: border-box;}
+.header
+{
+    height:100px;
+    width: 100%;
+    background-color: gray;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    line-height: 100px;
+}
+.content
+{
+    height: 450px;
+    width: 100%;
+    background-color: orange;
+}
+.content::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+.left
+{
+    float: left;
+    width: 48%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+  
+}
+.right
+{
+    float: right;
+    width: 52%;
+    display: inline-flex;
+    height:100%;
+    background-color: black;
+  
+}
+.categories
+{margin-left: 80px;
+margin-right: 20px;
+
+}
+
+.categories ul li
+{
+    list-style: none;
+    color: white
+
+}
+.categories ul li a
+{
+    text-decoration: none;
+    font: 10px;
+    color: gray;
+}
+.categories ul li a:hover
+{
+    background-color: goldenrod;
+}
+.ql
+{margin-left: 80px;
+    margin-right: 20px;}
+
+.ql ul li
+{
+    list-style: none;
+    
+
+}
+.ql ul li a
+{
+    text-decoration: none;
+    font: 10px;
+    color: gray;
+}
+.ql ul li a:hover
+{
+    background-color: goldenrod;
+}
+.contact
+{margin-left: 80px;
+    margin-right: 20px;}
+
+.contact ul li
+{
+    list-style: none;
+    
+
+}
+.contact ul li a
+{
+    text-decoration: none;
+    font: 10px;
+    color: gray;
+}
+.contact ul li a:hover
+{
+    background-color: goldenrod;
+}
+.footer
+{height: 100px;
+width: 100%;
+background-color: black;
+position: absolute;
+top: 600px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+line-height: 100px;}
+.ftr
+{height: 100px;
+width: 100%;
+background-color: black;
+position: absolute;
+top: 510px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+line-height: 100px;}
+.ftr a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: white;
+}
+.cpr
+{
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    top: 700px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.sec-3 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .sec-3 ul {
+    list-style: none;
+    
+  }
+  .sec-3 ul li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: #424242;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .sec-3 ul li i {
+    color: white;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+  }
